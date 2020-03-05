@@ -1,0 +1,42 @@
+# commonutils
+### 常用工具帮助类
+感觉自己写代码，有些时候，代码逻辑写过，为了不做重复性工作，我将平时经常用到的一些方法封装成类<br>
+- base包下：
+   - ArrayUtils    数组操作工具类
+   - CollectionUtils 集合操作
+   - DocumentUtils 文档操作
+   - RegexUtils 正则操作
+   - StringUtils 字符串操作
+   - RandomUtils 随机操作
+   - BaseTypeUtils 类型之间转换
+   - ClassHelper 类转换工具
+   - ConvertDateUtils 转换日期工具类
+   - IdcardUtils 身份证识别工具类
+   - MoneyUtils 钱处理工具类
+   - date   时间转换
+      -  DateFormatUtils 日期时间转换工具类
+      -  DateUtils 日期转换工具类
+      -  TimestampUtils 时间戳转换工具类
+   - encrypt 加密解密
+     -  AESUtils AES加密工具类
+     -  Base64Utils BASE64加解密工具类
+     -  DESUtils DES加解密工具类
+     -  EncryptAndDecryptUtils 加解密工具类
+     -  MD5Utils MD5加密
+   - file    文件操作
+     -  FileUtils 文件工具类
+     -  ZipUitls 文件压缩工具类
+   - image   图像处理
+     -  ImageUtil 图像处理工具类
+   - math    数学操作
+      - BigDecimalUtils 大数计算工具类
+   - sort        排序
+      - BinarySearch 二分查找
+      - BubbleSort 冒泡排序
+      - QuickSort  快速排序
+      - SelectSort 选择排序
+- algo包下
+   -  astar  A*算法
+   -  dijkstra  迪杰斯特拉算法
+   -  tsp  旅行商问题
+   -  topK    topk算法
